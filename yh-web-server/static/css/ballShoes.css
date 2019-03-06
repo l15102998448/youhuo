@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    background:white;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+span{
+    display: block;
+}
+/*header*/
+header h3{
+    width:100%;
+    height: .44rem;
+    line-height: .44rem;
+    text-align: center;
+    font-size:.16rem;
+    color:black;
+}
+.tit {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+    padding:0 .2rem;
+}
+.tit a{
+    text-align: center;
+}
+.tit a span{
+    font-size:.12rem;
+    color:black;
+    font-weiht:600;
+}
+.tit a  img {
+    width:.13rem;
+    height:.13rem;
+    margin:0 auto;
+}
+.tit a:nth-child(2){
+    width:2.42rem;
+    height: .36rem;
+    background:#f5f5f5;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.tit a:nth-child(2) img{
+    width:.13rem;
+    height: .13rem;
+    margin-right: .07rem ;
+    margin-left:.1rem;
+}
+.tit a:nth-child(2) span{
+    font-size:.12rem;
+    color:#8f8e93;
+}
+.main{
+    -webkit-flex: 1;
+    overflow-y: auto;
+}
+/*banner*/
+.banner{
+    padding-left:.2rem;
+    margin-top:.14rem;
+    margin-bottom:.21rem;
+}
+.banner a img{
+    width:3.2rem;
+    height:1.33rem;
+}
+.shoes{
+    width:100%;
+    height: 1.05rem;
+    display: -webkit-flex;
+    padding:0 .2rem;
+    box-sizing:border-box;
+    -webkit-align-items: center;
+}
+.shoes a{
+    -webkit-flex: 1;
+    text-align: center;
+    -webkit-flex-shrink: 1;
+}
+.shoes a img{
+    width:.53rem;
+    height: .3rem;
+    margin:0 auto;
+}
+.shoes a span{
+    font-size:10px;
+    color:black;
+    margin-top:.2rem;
+}
+.shoes a p{
+    width:.5rem;
+    height:.31rem ;
+    font-size:10px;
+    color:black;
+    border:3px solid #eeeeee;
+    text-align: center;
+    line-height: .32rem;
+    margin-left:.03rem;
+}
+/*UFO*/
+.ufo{
+    display: block;
+    padding:0 .2rem;
+    margin-bottom: .2rem;
+}
+.ufo img{
+    width:100%;
+    height: .86rem;
+}
+/*section*/
+section h2{
+    font-size:.18rem;
+    color:black;
+    line-height: .56rem;
+    text-align: center;
+    font-weight: 600;
+}
+.recommend{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+}
+.recommend a{
+    width:50%;
+    padding-bottom:.13rem;
+    padding-right: .18rem;
+    text-align: center;
+    position: relative;
+    border-top:1px solid #dddddd;
+    border-right:1px solid #dddddd;
+    box-sizing: border-box;
+}
+.recommend a:nth-child(2){
+    border-right:none;
+}
+.recommend a img{
+    width:1.14rem;
+    height: .95rem;
+    margin:.7rem auto .33rem;
+}
+.recommend a p{
+    font-size:12px;
+    color:black;
+    text-indent: 26px;
+ }
+.recommend a span{
+    font-size:.14rem;
+    color:black;
+    font-weight: 600;
+    position: absolute;
+    left: .2rem;
+    top: .13rem;
+}

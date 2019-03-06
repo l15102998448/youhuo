@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size:27.78vw;
+}
+html,body{
+  height: 100%;
+}
+body{
+  font-family:"微软雅黑",Arial;
+  background:#f6f6f6;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+a{
+  text-decoration:none;
+}
+li{
+  list-style:none;
+}
+img{
+  border:none;
+  display: block;
+}
+span{
+  display: block;
+}
+.main .banner2 a{
+  display: block;
+  width:100%;
+  height: 2.08rem;
+  margin-bottom:.1rem;
+}
+.main .banner2 img{
+  width:100%;
+  height: 2.08rem;
+}
+.section{
+  box-sizing: border-box;
+  margin-bottom: .1rem;
+}
+.gaoTitle{
+  text-align: center;
+  background:white;
+  padding-top:.1rem;
+}
+.gaoTitle h3{
+  font-size:.14rem;
+  color:black;
+  width:1rem;
+  margin:0 auto;
+  padding-bottom: .03rem;
+  border-bottom:2px solid #5d5d5d;
+}
+.gaoJie{
+  width: 100%;
+}
+.gaoTitle p{
+  font-size:.12rem;
+  color:#4b4b4b;
+  margin-top:.14rem;
+  padding-bottom:.23rem;
+}
+.gaoProduct{
+  width: 100%;
+  background: white;
+  display: -webkit-flex;
+  overflow-x: auto;
+  padding-bottom:.23rem;
+}
+.gaoProduct a{
+  display: block;
+  padding:.13rem;
+  background:#f1f1f3;
+  margin-left: .14rem;
+  text-align: center;
+}
+.gaoProduct a img{
+  width:1.13rem;
+  height: 1.17rem;
+  margin:0 auto;
+}
+.gaoProduct a  span{
+  font-size:.12rem;
+  color:#404042;
+  display: block;
+  margin-top:.07rem;
+}
+.ban01{
+  background:white;
+  padding:.17rem;
+  margin-bottom: .1rem;
+}
+.ban01 a img{
+  width:3.27rem;
+  height: 1.32rem;
+  margin-bottom:.1rem;
+}
+.ban02 {
+  background:white;
+  color:black;
+  margin-bottom: .1rem;
+  text-align: center;
+}
+.ban02 a img{
+  width:100%;
+  height: 2.05rem;
+}
+.ban02 h2{
+  font-size:.14rem;
+  margin:.1rem 0;
+}
+.ban02 p{
+  font-size:.12rem;
+  padding-bottom: .19rem;
+}
+.ban03 a img{
+  border-bottom: 1px solid #e0e0e0;
+}
+.gaoTitle01{
+  padding-bottom:.1rem;
+}
+.gaoProduct01 a{
+  padding:.2rem .1rem;
+  position: relative;
+}
+.gaoProduct01 a span{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  height: .2rem;
+  background:#e1e1e3;
+  color:black;
+}

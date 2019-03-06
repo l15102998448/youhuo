@@ -1,0 +1,45 @@
+{
+  "shopList":[
+    {
+      "title":"A UNIFREE 立领宽松外套",
+      "img":[
+        "/static/img/l9.jpg",
+        "/static/img/l10.jpg",
+        "/static/img/l11.jpg",
+        "/static/img/l12.jpg",
+        "/static/img/l13.jpg",
+        "/static/img/l14.jpg",
+        "/static/img/l15.jpg",
+        "/static/img/l16.jpg"
+      ],
+      "price":"$299.00"
+    },
+    {
+      "title":"B ROKIT x Nike Kyrie 5 All Star 2019 全明星周末联名",
+      "img":[
+        "../../../static/img/l17.jpg",
+        "../../../static/img/l18.jpg",
+        "../../../static/img/l19.jpg"
+      ],
+      "price":"$1300"
+    },
+    {
+      "title":"C ROKIT x Nike Kyrie 5 All Star 2019 全明星周末联名",
+      "img":[
+        "../../../static/img/l20.jpg",
+        "../../../static/img/l21.jpg",
+        "../../../static/img/l22.jpg"
+      ],
+      "price":"$1300"
+    },
+    {
+      "title":"D ROKIT x Nike Kyrie 5 All Star 2019 全明星周末联名",
+      "img":[
+        "../../../static/img/l23.jpg",
+        "../../../static/img/l24.jpg",
+        "../../../static/img/l25.jpg"
+      ],
+      "price":"$2100"
+    }
+  ]
+}

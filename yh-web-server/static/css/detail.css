@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    background:#f6f6f6;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+span{
+    display: block;
+}
+header{
+    position: relative;
+    background:white;
+}
+.banner{
+    width:100%;
+    height: 4.8rem;
+}
+.banner img{
+    width:100%;
+    height: 4.8rem;
+}
+.swiper-pagination-bullet{
+    border:3px solid #e3dadf;
+}
+.swiper-pagination-bullet-active{
+    background:#444444;
+    border:3px solid white;
+    width:.12rem;
+    height: .12rem;
+}
+.top{
+    width:100%;
+    height: .46rem;
+    display: -webkit-flex;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index:10;
+    padding:0 .12rem;
+    box-sizing: border-box;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.top .iconfont{
+    font-size:.22rem;
+    color:white;
+}
+.top  a span{
+    width:.35rem;
+    height:.35rem ;
+    border-radius:50%;
+    text-align: center;
+    line-height: .35rem;
+    background:rgba(0,0,0,.3);
+}
+.top p{
+    display: -webkit-flex;
+}
+.top p a:nth-child(1){
+    margin-right:.18rem;
+}
+.fzName{
+    padding:.12rem .22rem .15rem .15rem;
+    margin-bottom: .1rem;
+    background: white;
+}
+.fzName a{
+    display: block;
+    font-size:.16rem;
+    color:#4b4b4b;
+    line-height:.18rem;
+}
+.fzName  p{
+    display: -webkit-flex;
+    -webkit-align-items: flex-end;
+    height: .334rem;
+}
+.fzName  p i{
+    font-size:.14rem;
+    color:#d0011b;
+    font-style: normal;
+}
+.fzName  p i:nth-child(3){
+    color:#b0b0b0;
+    margin-left:.06rem;
+    text-decoration: line-through;
+}
+.fzName  p span{
+    display: inline-block;
+    color:#d0011b;
+    font-size:.18rem;
+}
+.fzName  p span:last-child{
+    font-size:.14rem;
+    color:#b0b0b0;
+    text-decoration: line-through;
+}
+.sales{
+    background: white;
+    padding:0 .15rem .04rem;
+    margin-bottom: .1rem;
+}
+.hotSales{
+    height: .48rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+.hotSales span:nth-child(1){
+    width:.3rem;
+    height: .15rem;
+    font-size:9px;
+    color:#fff5fa;
+    background:#d0011b;
+    text-align: center;
+    line-height:.15rem; ;
+    border-radius:100px;
+    margin-right:.15rem;
+}
+.hotSales p{
+    font-size:.14rem;
+    color:#444444;
+    width:3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.hotSales .iconfont{
+    width:.14rem;
+    color:#b0b0b0;
+    font-size:.14rem;
+}
+.pinpai{
+    height: .48rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.pinpai p{
+    font-size:.14rem;
+    color: #444444;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.pinpai p .iconfont{
+    color:#ce1328;
+    margin-right: .05rem;
+}
+.pinpai p:nth-child(1){
+    margin-right: .31rem;
+}
+.content{
+    background:white;
+    margin-bottom:.1rem;
+}
+.appraise{
+    width:100%;
+    height: .45rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+.appraise p{
+    font-size:.14rem;
+    color:#b0b0b0;
+    line-height: .45rem;
+    padding:0 .08rem;
+}
+.appraise span{
+    width:1px;
+    height: .15rem;
+    background:#b0b0b0;
+}
+.appraise .fo1{
+    color:#454545;
+    border-bottom:2px solid black;
+}
+.fareInsurance{
+    display: -webkit-flex;
+    padding-left:.15rem;
+}
+.letter{
+    width:.2rem;
+    height: .2rem;
+    background:black;
+    border-radius:50%;
+    font-size:10px;
+    color:white;
+    text-align: center;
+    line-height: .2rem;
+    margin-right: .03rem;
+}
+.fareInsurance  p span:nth-child(1){
+    color:black;
+    font-size:.15rem;
+}
+.fareInsurance  p span:nth-child(2){
+    font-size:.12rem;
+    color:#c9c9c9;
+}
+.fareIns p{
+    width:2.64rem;
+    font-size:.12rem;
+    color:#c9c9c9;
+}
+.fareIns{
+    padding-bottom:.13rem;
+}
+.more{
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: space-between;
+    margin-left: .14rem;
+    border-top:3px solid #f6f6f6;
+    line-height: .45rem;
+    padding-right: .16rem;
+}
+.more span{
+    font-size:.14rem;
+    color:#b3b3b3;
+}
+.lotteryDraw{
+    padding:0 .15rem;
+    height: .46rem;
+    background:white;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+    margin-bottom: .1rem;
+}
+.lotteryDraw p:nth-child(1){
+    display: -webkit-flex;
+}
+.lotteryDraw p:nth-child(1) span:nth-child(2){
+    font-size:.14rem;
+    color:#323232;
+}
+.icon-hongbao{
+    color:#d81e07;
+    font-size:.16rem;
+    margin-right: .11rem;
+}
+.icon-xiayiye1{
+    font-size:.14rem;
+    color:#b0b0b0;
+}
+.dianPu{
+    width:100%;
+    height: .49rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+    padding:0 .12rem;
+    box-sizing: border-box;
+    background:white;
+}
+.dianPu P{
+    display: -webkit-flex;
+}
+.dianPuTile span{
+    color:black;
+    font-weight: bolder;
+}
+.dianPuTile span:nth-child(1){
+    font-size:.10rem;
+    margin-right: .08rem;
+ }
+.dianPuTile span:nth-child(2){
+    font-size:.14rem;
+}
+.comeDianPu span{
+    font-size:.14rem;
+    color:#bebebe;
+}
+.comeDianPu span:nth-child(1){
+    margin-right: .06rem;
+}
+.clothesImgs{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+}
+.clothesImgs a{
+    display: block;
+    margin-bottom: .1rem;
+}
+.clothesImgs a img{
+    width:1.07rem;
+    height: 1.35rem;
+}
+.clothesImgs a p:nth-child(2){
+    width:1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:.12rem;
+    color:#444444;
+    line-height: .25rem;
+}
+.clothesImgs a p:nth-child(3){
+    display: -webkit-flex;
+    line-height: .15rem;
+}
+.clothesImgs a p span{
+    font-size:.12rem;
+    color: #444444;
+}
+    /*footer*/
+.footer{
+    background:white;
+    display: -webkit-flex;
+    padding:.07rem 0;
+    -webkit-align-items: center;
+    border-top:1px solid #e0e0e0;
+    -webkit-justify-content: space-around;
+}
+.footer .iconfont,.footer a span{
+    height: .2rem;
+    font-size:.14rem;
+    color:#b0b0b0;
+}
+.footer .iconfont{
+    font-size:.22rem;
+    text-align: center;
+    margin-bottom:.02rem;
+}
+.joinCarts{
+    display: block;
+    width:1.3rem;
+    height:.45rem;
+    background:#d0011b;
+    text-align: center;
+    line-height:.45rem ;
+    color:white;
+    font-size:.14rem;
+    border-radius:3px;
+}
+.footer .focusStore span{
+    color:#444444;
+}
+.main{
+    -webkit-flex:1;
+    overflow-y: auto;
+}

@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:27.78vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    background:#f6f6f6;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+header{
+    width:100%;
+    background:#3f3f3f;
+}
+.hTop{
+    height: .48rem;
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: center;
+}
+.hTop a {
+    padding-right: .13rem;
+}
+.hTop a img{
+    width:.25rem;
+    height: .25rem;
+}
+.hBottom{
+    background:#404040;
+    padding-top:.22rem;
+    padding-bottom:.55rem;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+}
+.hBottom a{
+    display: block;
+    width:1.3rem;
+    height: .35rem;
+    border:2px solid #ffffff;
+    border-radius:5px;
+    font-size:.14rem;
+    color:white;
+    text-align: center;
+    line-height: .35rem;
+}
+.section_one{
+    background:white;
+    padding:0;
+    margin-bottom: .1rem;
+}
+.myOrder{
+    width:100%;
+    height: .46rem;
+    border-bottom:1px solid #e0e0e0;
+    display: -webkit-flex;
+    -webkit-justify-content:space-between ;
+    -webkit-align-items: center;
+}
+.myOrder a{
+    color:#5c5c5c;
+    font-size:.15rem;
+}
+.myOrder a:nth-child(1){
+    margin-left:.1rem;
+}
+.myOrder a:nth-child(2){
+    margin-right:.16rem;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+.myOrder a:nth-child(2) img{
+    margin-left:.06rem;
+}
+.myOrder a img{
+    width:.1rem;
+    height: .16rem;
+}
+.middleNav{
+    width:100%;
+    padding-bottom: .17rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+}
+.middleNav a{
+    display: block;
+    text-align: center;
+    padding:.17rem;
+}
+.middleNav a img{
+    width:.3rem;
+    height: .22rem;
+    margin:0 auto .07rem;
+}
+.middleNav a span{
+    font-size:12px;
+    color:#545454;
+}
+.middleBottom{
+    padding-bottom: .1rem;
+    border-bottom: 1px solid #e0e0e0;
+    display: -webkit-flex;
+
+}
+.shareMoney{
+    width:1.54rem;
+    margin-left:.17rem;
+    border-radius:6px ;
+    -webkit-box-shadow: #e9e9e9 0px 10px 10px;
+    -moz-box-shadow: #e9e9e9 0px 10px 10px;
+    box-shadow: #e9e9e9 0px 7px 11px;
+}
+.shareMoney h3{
+    width:100%;
+    height:.26rem;
+    background:black;
+    font-size:12px;
+    color:white;
+    font-weight: 100;
+    text-align: center;
+    line-height: .26rem;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    margin-bottom: .1rem;
+}
+.shareMoney a{
+    display: block;
+    width:100%;
+    padding-left: .21rem;
+    box-sizing: border-box;
+    padding-bottom:.07rem;
+}
+.shareMoney a span{
+    font-size:12px;
+    color:#444444;
+    line-height:.23rem;
+}
+.trade h3{
+    background:#08304a;
+    color:#66ac87;
+}
+.section_two{
+    background: white;
+    margin-bottom: .1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.coupon{
+    width:100%;
+    height:.7rem;
+    line-height: .7rem;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+    border-top:1px solid #e0e0e0;
+}
+.coupon a{
+    display: block;
+    padding:0 .25rem;
+    text-align: center;
+}
+.coupon a span{
+    display:block;
+    font-size:12px;
+    color:#444444;
+    line-height: .26rem;
+}
+.coupon3 a,.coupon2 a{
+    padding:0;
+}
+.coupon3{
+    padding-top:.04rem;
+    box-sizing: border-box;
+}
+.coupon3 img{
+    width:.35rem;
+    height: .35rem;
+    margin:0 auto;
+}
+/*section_three*/
+.section_three{
+    background:white;
+}
+.shoesKing a img{
+    width: 100%;
+    height: 1.12rem;
+}
+.youxuan{
+    width:100%;
+    height: .36rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.youxuan h3{
+    font-size:.14rem;
+    color: #444444;
+    font-weight: 100;
+    margin:.1rem 0 .1rem .1rem;
+    border-left: 6px solid black;
+    padding-left: .11rem;
+}
+.shoesList{
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+}
+.shoesList a {
+    flex:1;
+    margin:.26rem .1rem 0;
+}
+.shoesList a img{
+    width:1.6rem;
+    height: 2.13rem;
+    margin:0 auto;
+}
+.shoesList a p{
+    font-size:12px;
+    color:#444444;
+    margin-top:.12rem;
+}
+.shoesList a p span{
+    color:black;
+}
+.shoesList a p img{
+    width:.2rem;
+    height: .09rem;
+    margin-right:0;
+}
+.shoesPrice{
+    display: -webkit-flex;
+}

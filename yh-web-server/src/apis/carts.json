@@ -1,0 +1,28 @@
+{
+  "users": {},
+  "product": [
+    {
+      "title": "UNIFREE 运动风立领长袖圆环拉链撞色学院校服套装",
+      "pic": "../../../static/img/j1.jpg",
+      "singlePrice":"289.00",
+      "attr": {
+        "color": "黑色",
+        "size": "L"
+      },
+      "proNum": 1,
+      "checked": true
+    },
+    {
+      "title": "UNIFREE 运动风立领长袖圆环拉链撞色学院校服套装",
+      "pic": "../../../static/img/j1.jpg",
+      "singlePrice":"399.00",
+      "attr": {
+        "color": "红色",
+        "size": "S"
+      },
+      "proNum": 2,
+      "checked": true
+    }
+
+  ]
+}

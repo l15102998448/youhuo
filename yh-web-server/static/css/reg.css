@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:27.78vw;
+}
+body{
+    font-family:"微软雅黑",Arial;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+span{
+    display: block;
+}
+header{
+    height: .5rem;
+    background:none;
+}
+.top a img{
+    width:.25rem;
+    height: .25rem;
+}
+.top a:nth-child(2){
+    border:none;
+    color:black;
+}
+.content {
+    padding-top:.4rem;
+}
+.picYz .server{
+    line-height:0;
+    color:#4b90de;
+}
+.validate .eyes{
+    width:.18rem;
+    height: .1rem;
+    margin-left: .43rem;
+}
+.v2 img{
+    width:.18rem;
+    height: .21rem;
+}
